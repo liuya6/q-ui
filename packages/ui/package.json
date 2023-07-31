@@ -1,0 +1,25 @@
+{
+  "name": "q-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.es.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@q-ui/components": "workspace:^",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite-plugin-dts": "^3.4.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.0.4"
+  }
+}
